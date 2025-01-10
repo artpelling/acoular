@@ -1,24 +1,24 @@
 docs:
 - all:
   - changed-files:
-    - any-glob-to-any-file: docs/**/*
-    - all-globs-to-any-file: !docs/source/news/**
+    - any-glob-to-any-file: 'docs/**/*'
+    - all-globs-to-any-file: '!docs/source/news/**'
 tests:
 - changed-files:
-  - any-glob-to-any-file: tests/**
+  - any-glob-to-any-file: 'tests/**'
 ci:
 - changed-files:
-  - any-glob-to-any-file: .github/**
+  - any-glob-to-any-file: '.github/**'
 linting:
 - changed-files:
-  - any-glob-to-any-file: .ruff.toml
+  - any-glob-to-any-file: '.ruff.toml'
 maintenance:
 - changed-files:
   - any-glob-to-any-file:
-    - pyproject.toml
-    - CONTRIBUTING.md
-    - CODE_OF_CONDUCT.md
-    - LICENSE
+    - 'pyproject.toml'
+    - 'CONTRIBUTING.md'
+    - 'CODE_OF_CONDUCT.md'
+    - 'LICENSE'
 new feature:
  - head-branch: ['^feature', 'feature']
 sinus:
