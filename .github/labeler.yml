@@ -1,14 +1,11 @@
 docs:
-- changed-files:
-  - any-glob-to-any-file:
-    - docs/**
-    - README.md
-    - AUTHORS.rst
-    - CITATION.cff
+- all:
+  - changed-files:
+    - any-glob-to-any-file: docs/**/*
+    - all-globs-to-any-file: !docs/source/news/**
 tests:
 - changed-files:
-  - any-glob-to-any-file:
-    - tests/**
+  - any-glob-to-any-file: tests/**
 ci:
 - changed-files:
   - any-glob-to-any-file: .github/**
