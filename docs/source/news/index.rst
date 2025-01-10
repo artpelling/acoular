@@ -48,7 +48,7 @@ Upcoming Release (25.01)
         * `depends_on` now only accepts a list of strings
         * removes deprecated traits ending with version 25.01
         * include doctests in coverage report
-        * foo
+        * foo bar
 
 24.10
 ----------------
