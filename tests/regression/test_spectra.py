@@ -6,7 +6,7 @@
 import acoular as ac
 import numpy as np
 import pytest
-
+import scipy
 
 @pytest.fixture(
     params=[

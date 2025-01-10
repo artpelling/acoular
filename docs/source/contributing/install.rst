@@ -3,7 +3,7 @@ Setting up a development environment
 ====================================
 
 
-Prerequisites
+Pre-requisites
 -------------
 
 Before you can start contributing to Acoular
